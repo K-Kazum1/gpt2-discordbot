@@ -225,4 +225,4 @@ async def handle_message(message):
         print('asyncerror')
         return
         
-bot.run('NTA0NDIzOTY2MjU3OTcxMjA0.XkR7_g.wHOGY48hPUqF8HobdXVy1aBupvI')
+bot.run(open("bot.txt",'r').read())
