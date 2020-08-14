@@ -30,11 +30,13 @@ if training_file != "":
   gpt2.finetune(sess,
               training_file,
               model_name="..",
-              steps=-1,print_every=100,restore_from='fresh')```
+              steps=-1,print_every=100,restore_from='fresh')
+```
               
 ##Deploying
 Every time you want to start up the bot, run the below code in Google Colab.
-```from google.colab import drive
+```
+from google.colab import drive
 drive.mount('/content/drive')
 %tensorflow_version 1.x
 import tensorflow as tf
@@ -42,4 +44,5 @@ import tensorflow as tf
 %cd 'drive/My Drive/Colab Notebooks/gpt_2_simple'
 !pip install discord
 !pip install toposort
-!python yonakabot.py```
+!python yonakabot.py
+```
