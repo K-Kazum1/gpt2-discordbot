@@ -44,5 +44,5 @@ import tensorflow as tf
 %cd 'drive/My Drive/Colab Notebooks/gpt_2_simple'
 !pip install discord
 !pip install toposort
-!python yonakabot.py
+!python discordbot.py
 ```
